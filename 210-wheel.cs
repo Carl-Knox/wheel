@@ -20,7 +20,6 @@ namespace _210_Wheel_v2._00     // version 2.00 made to Incument from a starting
             index = 0;
             reset = wheel.Length - 1;                       // spoke index
             step = 210;                                     // wheel dimension
-            //n = BigInteger.Parse("270670841438652918328457437265155619391032450133463282814465259139067145362144253227993241689950508665789547410822808227577");
             n = 339850094323758691;     // 764567807 444499613 (~854 ms)
             a = iSqrt(n);
             x = (a * 707) / 1000;                           // starting point (~2:1 ratio)
